@@ -1,0 +1,177 @@
+
+   /*
+    GITHUB - Command:
+
+    1) Sadece bir defa kullanilir. Eger daha once github ve git kurmadiysan.
+    git init
+    git config --global user.name "EddySlek"
+    git config --global user.email "slek.eddy@gmail.com"
+    git config credential.username "EddySlek"
+    git config credential.password "xaxsdwwq"
+    git config --list
+
+    2) Eger github credential yapildiysa pc de ve ilk defa projeye baslanilacaksa:
+    git init (Yeni Proje baslanildiginda sadece bir defaf yazilir)
+    git status
+    git add .
+    git commit -m "first commit"
+    git remote add origin https://github.com/EddySlek/Javadandir.git
+    git push --set-upstream origin master
+    git push
+    git branch
+
+
+     */
+
+
+//----------------------------------------GitHub----------------------------------------------\\
+	* It is remote repository.
+	* It is a storage on the cloud and it is free.
+	* When you have updates about your code then you can push them
+	  to the cloud then you can have all versions on the cloud 
+	  and your code will be always safe there. 
+
+
+
+//------------------------------------------Git-----------------------------------------------\\
+	* Git is local repository.
+	* It is a version control tool.
+	* You can make changes and save them as version
+	* It is used to collaborate with others
+	* You can use all your versions and compare them
+
+
+
+//----------------------------------------MAIN COMMANDS--------------------------------------------\\
+git init -> (1 kere)
+git add .
+git commit -m "v003"
+git push
+
+git branch
+git branch EMR
+git checkout EMR
+git merge main  -> merge from main to new branch(EMR)
+
+git fetch
+git merge
+git pull
+
+git push -u origin EMRSLK  -> (1 kere)
+
+
+//----------------------------------------COMMANDS--------------------------------------------\\
+
+---> We need to check our git version on our pc:
+
+	git --version ---> To make sure about installe Git.(We need install Git on our local machine)
+
+
+---> We configure our Git using following commands (just once time before setup git/github):
+	
+	git config --global user.name "your github username"
+	git config --global user.email "your github email" 
+	git config credential.username "your github username"
+	git config credential.password "your github password"
+	git config --list
+
+
+---> Push the code to GitHub "Steps":
+
+	*** Before push make sure you are in your project path - Change directory to your project; " cd C:\Users\BelomeX\eclipse-workspace\summer2021x\src\_02_Github " 
+	* git init    --> Create local repository. Create .git folder - initialize your project as a local repository for the first time (once time for each project)
+	* git status  --> you can check the status of everything
+	* git add .   --> will add all files and folders to Staging Area. Staging area means;between your application and local repository(Git)
+    	* git add src/first/thclass.java  --> for just single file like this:=> modified:  src/first/thclass.java
+	* git commit -m "first commit"    --> to create a new version/commit on the local repo
+	* git remote add origin https://github.com/techproed2020.git  --> create bridge between git and github (just the first time for each project)
+	* git branch                 --> check your branch (what is your branch)
+	* git push -u origin master  --> sends everything to remote repo (if your branch master otherwise delete master and type your branch name)
+	* git push                   --> when you pushed one time then you don`t need type whole command. just "git push" enough.
+	
+	  
+---> Pull the code "Steps"	  
+
+	//1.way:
+	* git pull  --> brings and adds to your local repo and your app.
+	
+	//2.way:
+	* git fetch --> brings updates on your local repo, not your app(intelliJ).
+	* git merge --> merges local git and remote GitHub codes.
+
+	Note:  git pull = git fetch + git merge
+
+
+
+
+//----------------------------------Other Commands--------------------------------------------\\
+
+---> Branch Commands:
+
+	* git branch           	--> Shows all branches.
+	* git branch dogaba 	--> Creates new branch as named is "dogaba". This is the copy based on current branch.
+	* git checkout dogaba 	--> switch to dogaba branch.
+	* git branch -M dogaba	--> change current branch name
+	* git branch -d dogaba	--> delete "dogaba" branch
+	* git merge dogaba 	--> If you run this command when you are on master branch, then dogaba branch codes merges into master branch.
+	* git push --set-upstream origin feature --> use when you push for the FIRST TIME. After the first push time, git push is enough
+
+
+---> Other Commands:
+
+	* git log --> will give you all commits history
+     				like this==> commit 522b9e842c6fd5d8598fc638022060dfcc269609 (HEAD -> master)
+		    		Author: Emrah Man <hisetkal@gmail.com>
+		    		Date:   Sun Aug 1 15:42:10 2021 -0400
+	* git show "commit no" --> shows specific commit changes detail
+   	* git show 522b9e  
+    	* git show 522b9e842c6fd5d8598fc638022060dfcc269609
+	* git clone https://github.com/salptekin/techproedsummer2020turkish2.git
+	* git clone --> This is used to clone the entire NEW PROJECTS. We don’t use git clone to bring the latest codes.
+	* .gitignore : is used to ignore the files to commit. Create txt file and name must be .gitignore
+	
+
+	//if you If you cloned a project, to get same latest code from github:
+		Note: this will reset your project
+		It will delete if you have your own codes/notes
+		git reset --hard origin/main or master
+	* git reset --hard origin/master --> reset you COPY REMOTE MASTE to local master. Deleted my local commits that is not pushed
+
+
+
+
+//-------------------------Some Commands on CMD (Terminal)---------------------------\\
+
+	* cd 		--> change directory
+	* cd .. 	  	--> go on step back folder
+	* mkdir 	--> create a new folder, Not file.
+	* touch fileName.txt 		--> creates a new file (MAC PC!)
+	* type null > fileName.txt 	--> creates a new file(Windows PC). "The system cannot find the file specified." don`t worry, you get this message but you create it. 
+	* ls 	--> will show list of items(Mac PC)
+	* dir 	--> will show list of items(Windows PC)
+	* wq	--> write and quit.
+	* q  	--> quit, exit
+	* git --version --> show git version
+	* java --version --> show java app version
+
+
+
+//----------------------------------------ERROR---------------------------------------\\
+
+
+PS D:\_QA_SDET\_TechProEd21\10_HTML-CSS-JS\marketng> git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/emrahselek/marketng.git' 
+
+SOLUTION:
+
+	* git add -A
+	* git commit -m "message"
+	* git push -u origin main
+
+
+
+
+
+
+*/
