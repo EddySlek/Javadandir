@@ -19,6 +19,11 @@ public class GithubCommands {
     git commit -m "first commit"
     git remote add origin https://github.com/EddySlek/Javadandir.git
     git push --set-upstream origin master
+
+    3) Common Commands:
+    git status
+    git add .
+    git commit -m "message"
     git push
     git branch
 
