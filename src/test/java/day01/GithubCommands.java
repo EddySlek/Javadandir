@@ -32,6 +32,13 @@ public class GithubCommands {
 
      */
 
+   public static void personalInfo(){
+        String name = "Selman";
+        int age = 24;
+        System.out.println(name);
+        System.out.println(age);
+    }
+
 
 
 
