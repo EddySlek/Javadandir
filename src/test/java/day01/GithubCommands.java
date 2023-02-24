@@ -21,12 +21,14 @@ public class GithubCommands {
     git push --set-upstream origin master
 
     3) Common Commands:
-    git status
-    git add .
-    git commit -m "message"
-    git push
-    git branch
+        git status
+        git add .
+        git commit -m "message"
+        git push
 
+        git branch
+        git branch emrah
+        git checkout emrah
 
      */
 
