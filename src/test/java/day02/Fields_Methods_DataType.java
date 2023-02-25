@@ -2,7 +2,7 @@ package day02;
 
 public class Fields_Methods_DataType {
 
-    /*
+    /**
         1) Field / Variable=>
              int A = 115;
                 int: field data type
