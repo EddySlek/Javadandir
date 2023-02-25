@@ -44,14 +44,15 @@ public class Fields_Methods_DataType {
     float fl = 15.23f;
     double dl = 154.415245; //*******
 
-    // Common primitive data type: char, boolean, int, double
+    // Common primitive data type:
+    // char, boolean, int, double
 
 
     // B) Non-Primitive: String
     String nameCity = "Denver";
-    static String name1 = "312313////97898-----***3454634646^%&%^&*&(&*()&*((&tqweqwre&&*%*&&*&(%$&^%&";
     String name2 = "15";
     String name3 = "$$$$$$$%%%%%^^^&*()_#%!@#";
+    static String name1 = "3128---**%^&*&tqweq";
 
     String nm1 = "Emrah", nm2 = "Tugce", nm3 = "Selman";
     int n1 = 5, n2 = 4;
