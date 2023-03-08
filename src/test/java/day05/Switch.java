@@ -26,6 +26,21 @@ public class Switch {
         }
 
 
+        int nub = 10;
+
+        switch(nub){
+            case 11:
+                System.out.println("eleven");
+                break;
+            case 10:
+                System.out.println("ten");
+                break;
+            default:
+                System.out.println("noway");
+
+        }
+
+
 
 
     }
