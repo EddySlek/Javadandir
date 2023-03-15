@@ -92,6 +92,11 @@ public class ArrayMan {
             System.out.println("forEachSalary: " + checkEachPersonSalary);
         }
 
+        // MultiDimensionArray:
+        int[][] nbrr = {{12,2},{44,56}};
+        System.out.println(nbrr[0][0]);
+        System.out.println(nbrr[0][1]);
+        System.out.println(nbrr[1][0]);
 
 
 
