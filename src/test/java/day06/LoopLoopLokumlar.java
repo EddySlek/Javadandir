@@ -20,13 +20,13 @@ public class LoopLoopLokumlar {
 //		System.out.println("Hello world!");
 //		System.out.println("Hello world!");
 
-        // for loop
+        // 1) for loop
         for (int i = 0; i < 10; i += 3) {
             System.out.println(+i);
         }
         System.out.println("\n");
 
-        //Nested loops
+        // Nested loops
         for (int i = 1; i < 4; i++) {
 
             for (int j = 5; j < 9; j++) {
@@ -35,14 +35,14 @@ public class LoopLoopLokumlar {
 
         }
 
-        // While loop
+        // 2) While loop
         int nbr = 10;
         while (nbr < 20) {
             System.out.println(nbr);
             nbr++;
         }
 */
-        // Do while:
+        // 3) Do while:
         int numberr;
         int attempt = 3;
 
@@ -65,19 +65,19 @@ public class LoopLoopLokumlar {
 
 
         // Attempts=3
-//            Scanner scan = new Scanner(System.in);
-//            System.out.println("enter your password");
-//            int numberX = scan.nextInt();
-//
-//            for (int i = 1; i<4; i++) {
-//                if (numberX == 1212) {
-//                    System.out.println("Your password is correct!");
-//                    System.out.println("What is your balance!!!!!");
-//                    break;
-//                } else {
-//                    System.out.println("wrong password, gfys");
-//                }
-//            }
+            Scanner scan = new Scanner(System.in);
+            System.out.println("enter your password");
+            int numberX = scan.nextInt();
+
+            for (int i = 1; i<4; i++) {
+                if (numberX == 1212) {
+                    System.out.println("Your password is correct!");
+                    System.out.println("What is your balance!!!!!");
+                    break;
+                } else {
+                    System.out.println("wrong password, gfys");
+                }
+            }
 
 
     }
