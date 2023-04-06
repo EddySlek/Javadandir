@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class InterviewQuestion04 {
 
+	//Enter a positive integer to check if it is prime or not?
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
