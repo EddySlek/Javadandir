@@ -1,10 +1,8 @@
 package javainterviewcodequestions;
 
-import org.testng.annotations.Test;
-
 import java.util.Scanner;
 
-public class InterviewQuestion01 {
+public class InterviewQuestion01__ {
 	
 	//Write a Java Program to reverse a string  "denver -> revned"
 
