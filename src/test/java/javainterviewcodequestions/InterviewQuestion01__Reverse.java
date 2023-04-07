@@ -2,7 +2,7 @@ package javainterviewcodequestions;
 
 import java.util.Scanner;
 
-public class InterviewQuestion01__ {
+public class InterviewQuestion01__Reverse {
 	
 	//Write a Java Program to reverse a string  "denver -> revned"
 

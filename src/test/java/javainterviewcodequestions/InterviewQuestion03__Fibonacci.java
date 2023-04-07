@@ -2,7 +2,7 @@ package javainterviewcodequestions;
 
 import java.util.Scanner;
 
-public class InterviewQuestion03 {
+public class InterviewQuestion03__Fibonacci {
 
 	// How many fibonacci number do you want to see?  -> 1-1-2-3-5-8-13-21...
 	public static void main(String[] args) {
