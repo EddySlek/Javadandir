@@ -9,7 +9,7 @@ import java.util.Scanner;
 	    Ask user to enter array elements.
 	*/
 
-public class InterviewQuestion05 {
+public class InterviewQuestion05_BiggestSmallestNumbers {
 	
 	public static void main(String[] args) {
 		

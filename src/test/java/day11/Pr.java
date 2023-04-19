@@ -1,21 +1,23 @@
 package day11;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Pr {
 
     public static void main(String[] args) {
 
-    /*
-	 	Create a function that takes an array and
-	 	returns the difference between the biggest and the smallest numbers.
-	    Ask user to enter array elements.
-	*/
+        Scanner scan = new Scanner(System.in);
+        System.out.println("enter array size");
+        int nbr = scan.nextInt();
+        int[] arrayy = new int[nbr];
 
-//        Scanner scan = new Scanner(System.in);
-//        System.err.println("enter number for array");
-//        int[] arrayList = scan.nextInt();
-
+        System.out.println("enter arrays elements");
+        for(int i=0; i<nbr; i++){
+            int element=scan.nextInt();
+            arrayy[i]=element;
+        }
+        System.out.println(Arrays.toString(arrayy));
 
 
     }
