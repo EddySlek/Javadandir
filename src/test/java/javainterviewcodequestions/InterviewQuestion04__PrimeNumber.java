@@ -16,7 +16,9 @@ public class InterviewQuestion04__PrimeNumber {
     }
 
     public static void primeCalculator(int number) {
+
         int count = 0;
+
         if (number > 0) {
             if (number == 1) {
                 System.out.println(number + " is prime number");
@@ -35,7 +37,6 @@ public class InterviewQuestion04__PrimeNumber {
         } else {
             System.out.println("Enter a positive integer");
         }
-
 
     }
 
