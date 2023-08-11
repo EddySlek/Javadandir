@@ -22,5 +22,12 @@ public class SecondClass {
 
     }
 
+    // Access Modifiers;
+    String nameDefault = "nameDefault";
+    protected String nameProtected = "nameProtected";
+    public String namePublic = "namePublic";
+    private String namePrivate = "namePrivate";
+
+
 
 }
