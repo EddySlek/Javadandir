@@ -2,22 +2,17 @@ package den;
 
 public class SecondClass {
 
-    // Variables= 5
     int colorNbr = 12;
-
     String colorString = "colorString";
-
-    static String colorStatic = "colorStatic";
-
     public String colorPublic = "colorPublic";
 
+
+    // Global:
+    static String colorStatic = "colorStatic";
     public static String colorPublicStatic = "colorPublicStatic";
+    public static final String COLOR_PUBLIC_STATIC_FINAL = "colorPublicStatic";
 
 
-    // Method:
-    public static void colorPublicStaticMethod(){
-
-    }
 
 
 }
