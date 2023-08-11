@@ -1,6 +1,14 @@
 package day03;
 
+import day02.Fields_Methods_DataType;
+
 public class TypeOfVariables {
+
+    public static void main(String[] args) {
+
+        System.out.println(Fields_Methods_DataType.nameName);
+
+    }
 
     /**
      TYPES OF VARIABLES (Fields):
