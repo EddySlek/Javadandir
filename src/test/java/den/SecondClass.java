@@ -8,8 +8,9 @@ public class SecondClass {
     public String colorPublic = "colorPublic";
 
 
-    // Static fields(variables) means Global:
+    // Static fields(variables) means (Global-> public + static)
     static String colorStatic = "colorStatic";
+    protected static String colorStaticProtected = "colorStaticProtected";
     public static String colorPublicStatic = "colorPublicStatic";
     public static final String COLOR_PUBLIC_STATIC_FINAL = "colorPublicStatic";
 
